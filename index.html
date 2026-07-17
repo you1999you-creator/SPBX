@@ -46,6 +46,12 @@ body:before,.space-scene{display:none}
 @media(max-width:1040px){.status .eye-link{left:51%;top:27%}}
 @media(max-width:640px){.status .eye-link{left:51%;top:25%;width:88px;height:58px}}
 </style>
+<style>
+@media(min-width:1041px){.status .eye-link{left:53%;top:34%}}
+@media(min-width:641px) and (max-width:1040px){.status .eye-link{left:53%;top:41%}}
+@media(max-width:640px){.status .eye-link{left:53%;top:29%}}
+.status .eye-link:before{left:50%;top:50%;transform:translate(-50%,-50%)}@keyframes eyeSignal{50%{opacity:.38;transform:translate(-50%,-50%) scale(.72)}}
+</style>
 </head>
 <body>
 <div class="space-scene" aria-hidden="true"><div class="planet"></div><div class="moon"></div><div class="flight-path"></div><div class="ship"><span class="ship-engine"></span><span class="ship-wing"></span><span class="ship-body"></span></div><div class="satellite"><span class="sat-panel left"></span><span class="sat-core"></span><span class="sat-panel right"></span><span class="sat-dish"></span></div><div class="rocket"><span class="rocket-body"></span><span class="rocket-flame"></span></div></div>
