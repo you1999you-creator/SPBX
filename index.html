@@ -31,6 +31,11 @@ body:before,.space-scene{display:none}
 @media(max-width:1040px){.status{min-height:720px;padding-top:410px;background-position:center 16%}}
 @media(max-width:640px){.status{min-height:620px;padding-top:350px;background-position:center top}.status .lights{grid-template-columns:repeat(2,1fr)}}
 </style>
+<style>
+@media(min-width:1041px){.hero{grid-template-columns:minmax(360px,.72fr) minmax(520px,1.28fr);align-items:stretch}.heroMain{min-height:560px;padding:22px}.heroMain h1{font-size:clamp(30px,3.7vw,48px);max-width:12ch}.heroMain .lead{font-size:16px;line-height:1.55}.heroMain .muted{font-size:13px;line-height:1.65}.status{min-height:760px;padding-top:430px;background-size:cover;background-position:center 18%}}
+@media(max-width:1040px){.heroMain h1{font-size:clamp(30px,7vw,46px)}.heroMain .lead{font-size:17px}.status{min-height:780px;padding-top:460px}}
+@media(max-width:640px){.heroMain{min-height:360px;padding:18px}.heroMain h1{font-size:32px}.heroMain .lead{font-size:15px}.heroMain .muted{font-size:13px}.status{min-height:700px;padding-top:420px}}
+</style>
 </head>
 <body>
 <div class="space-scene" aria-hidden="true"><div class="planet"></div><div class="moon"></div><div class="flight-path"></div><div class="ship"><span class="ship-engine"></span><span class="ship-wing"></span><span class="ship-body"></span></div><div class="satellite"><span class="sat-panel left"></span><span class="sat-core"></span><span class="sat-panel right"></span><span class="sat-dish"></span></div><div class="rocket"><span class="rocket-body"></span><span class="rocket-flame"></span></div></div>
