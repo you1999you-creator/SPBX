@@ -172,6 +172,9 @@ body{overflow-x:hidden}.top{padding-top:env(safe-area-inset-top,0)}a,button{-web
 .bigPixelCat .tail{position:absolute;left:69px;top:83px;width:35px;height:12px;border:7px solid #11161b;border-left:0;border-radius:0 18px 18px 0;transform-origin:left center;animation:catTail 1.15s steps(4) infinite}
 .bigPixelCat .paws{position:absolute;left:25px;top:108px;width:14px;height:9px;background:#fff;box-shadow:30px 0 #fff}
 .futureCat.noSuit .helmet,.futureCat.noSuit .suit,.futureCat.noSuit .badge{opacity:0;transform:scale(.75)}
+.futureCat.noSuit .suit{opacity:1;transform:none;left:20px;top:72px;width:54px;height:43px;background:#101419;border:5px solid #050709;border-radius:45% 45% 28% 28%;box-shadow:-14px 12px 0 -7px #101419,14px 12px 0 -7px #101419,inset 17px 0 0 #fff,inset -17px 0 0 #fff;z-index:1}
+.futureCat.noSuit .suit:after{content:"";position:absolute;left:15px;top:5px;width:14px;height:27px;background:#fff;clip-path:polygon(15% 0,85% 0,100% 100%,0 100%)}
+.futureCat.noSuit .badge{opacity:0}.futureCat.noSuit .paws{z-index:3}
 .futureCat .helmet,.futureCat .suit,.futureCat .badge{transition:opacity .45s,transform .45s}
 .futureCat.walking .bigPixelCat{animation:catWalk .48s steps(2) infinite}.futureCat.walking .paws{animation:catPaws .24s steps(2) infinite}
 .futureCat.sleeping{cursor:grab}.futureCat.sleeping .bigPixelCat{transform:rotate(90deg) translate(18px,-10px) scale(.9);transform-origin:center}.futureCat.sleeping .eyes{height:2px;top:41px}.futureCat.sleeping .catBubble:after{content:" Z z z";color:#6a36a8}.futureCat.guideActive{filter:drop-shadow(0 0 23px rgba(44,255,136,.75))}
